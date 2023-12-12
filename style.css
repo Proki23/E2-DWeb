@@ -31,3 +31,38 @@ nav {
 ul a {
   color: black;
 }
+
+main {
+  background-color: gray;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h1 {
+  color: #e6ac00;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.hero-link {
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero-call {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero-card {
+  display: flex;
+}
+
+.hero-card img {
+  width: 200px;
+}
