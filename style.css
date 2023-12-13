@@ -44,6 +44,15 @@ h1 {
   color: #e6ac00;
   font-weight: 400;
   margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
 }
 
 .hero-link {
@@ -57,12 +66,27 @@ h1 {
   padding: 10px;
   border-radius: 5px;
   color: white;
-}
-
-.hero-card {
-  display: flex;
+  border: 1px solid white;
 }
 
 .hero-card img {
   width: 200px;
+}
+
+.text-brand {
+  display: flex;
+}
+
+.hero-section {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.text-brand {
+  margin-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
 }
